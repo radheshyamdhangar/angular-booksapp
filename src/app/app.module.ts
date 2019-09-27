@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { BookmarkComponent } from './bookmark/bookmark.component';
 import { BookmarkListComponent } from './bookmark/bookmark-list/bookmark-list.component';
 import { CommonModule } from '@angular/common';
+import { BookmatkListComponent } from './bookmark/bookmatk-list/bookmatk-list.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     BookmarkComponent,
-    BookmarkListComponent
+    BookmarkListComponent,
+    BookmatkListComponent
   ],
   imports: [
     BrowserModule,
